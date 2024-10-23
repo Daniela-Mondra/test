@@ -1,0 +1,37 @@
+=> 
+[[32m#<Car:0x00007f593a054098[0m
+  id: [34m[1m1[0m,
+  plate_number: [31m[1m"[0m[31mABC124[0m[31m[1m"[0m,
+  model: [31m[1m"[0m[31mToyota Corolla[0m[31m[1m"[0m,
+  year: [34m[1m2020[0m,
+  created_at:
+   Tue, 22 Oct 2024 02:32:05.202417000 UTC +00:00,
+  updated_at:
+   Tue, 22 Oct 2024 21:46:04.334557000 UTC +00:00[32m>[0m,
+ [32m#<Car:0x00007f5939fd59a0[0m
+  id: [34m[1m2[0m,
+  plate_number: [31m[1m"[0m[31mXYZ789[0m[31m[1m"[0m,
+  model: [31m[1m"[0m[31mHonda Civic[0m[31m[1m"[0m,
+  year: [34m[1m2018[0m,
+  created_at:
+   Tue, 22 Oct 2024 02:32:05.220708000 UTC +00:00,
+  updated_at:
+   Tue, 22 Oct 2024 02:32:05.220708000 UTC +00:00[32m>[0m,
+ [32m#<Car:0x00007f5939fd5748[0m
+  id: [34m[1m3[0m,
+  plate_number: [31m[1m"[0m[31mGFT386[0m[31m[1m"[0m,
+  model: [31m[1m"[0m[31mToyota Yaris[0m[31m[1m"[0m,
+  year: [34m[1m2016[0m,
+  created_at:
+   Tue, 22 Oct 2024 20:17:36.294864000 UTC +00:00,
+  updated_at:
+   Wed, 23 Oct 2024 17:36:10.617873000 UTC +00:00[32m>[0m,
+ [32m#<Car:0x00007f5939fd5680[0m
+  id: [34m[1m4[0m,
+  plate_number: [31m[1m"[0m[31mDMM473[0m[31m[1m"[0m,
+  model: [31m[1m"[0m[31mKia Seltos[0m[31m[1m"[0m,
+  year: [34m[1m2020[0m,
+  created_at:
+   Tue, 22 Oct 2024 22:31:39.290093000 UTC +00:00,
+  updated_at:
+   Tue, 22 Oct 2024 22:31:39.290093000 UTC +00:00[32m>[0m]
