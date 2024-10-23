@@ -19,8 +19,9 @@ La API permite la gestión de autos y servicios de mantenimiento. Aquí están l
 ### Endpoints de Autos
 
 ```bash
-Listar todos los autos:
-GET /api/v1/cars
+Listar todos los autos (con paginación):
+GET /api/v1/cars?page=${page}
+Devuelve 10 registros por página.
 
 Ver detalles de un auto específico:
 GET /api/v1/cars/:id
@@ -38,8 +39,9 @@ DELETE /api/v1/cars/:id
 ### Endpoints de Servicios de Mantenimiento
 
 ```bash
-Listar todos los servicios de mantenimiento:
-GET /api/v1/maintenance_services
+Listar todos los servicios de mantenimiento(con paginación):
+GET /api/v1/maintenance_services?page=${page}
+Devuelve 10 registros por página.
 
 Ver detalles de un servicio específico:
 GET /api/v1/maintenance_services/:id
@@ -82,6 +84,16 @@ rails s
 ```
 
 La API estará disponible en http://localhost:3000.
+
+### Pruebas para la API (RSpec)
+
+Para ejecutar las pruebas de la API, navega a la carpeta back-end y corre el siguiente comando en la terminal:
+
+```bash
+bundle exec rspec
+```
+
+Este comando ejecutará todas las pruebas definidas en el proyecto, utilizando RSpec.
 
 ## Front-end: React
 
